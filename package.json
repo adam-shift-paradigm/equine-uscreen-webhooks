@@ -1,0 +1,18 @@
+{
+  "name": "equine-uscreen-webhooks",
+  "version": "1.0.0",
+  "description": "This program accepts a JSON Webhook-request from UScreen and saves the data to AzureSQL",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-west-2.amazonaws.com/v1/repos/equine-uscreen-webhooks"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "tedious": "^13.1.0"
+  },
+  "devDependencies": {}
+}
